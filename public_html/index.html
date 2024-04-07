@@ -22,7 +22,8 @@
                 <h4 class="header-subtitle" >Hello, I am</h4>
                 <h1 class="header-title">Kaiwen Guo</h1>
                 <h6 class="header-mono" >Computer Science Engineer | Software Developer </h6>
-                <button class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>Print Resume</button>
+                <a href="./Kevin_Guo_2024.pdf" download="Kevin_Guo_2024"><button class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>Print Resume</button></a>
+            
             </div>
         </div>
     </header>
@@ -69,7 +70,12 @@
                 <h5 class="mb-3">A junior at NYU Tandon College of Engineering</h5>
                 <p class="mt-20">Studies computer science as major, mathmatics and cyber security as minor</p>
                 <p class="mt-20">Also a unprofessional drummer/guitarist</p>
-                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
+                <a href="./Kevin_Guo_2024.pdf" download="Kevin_Guo_2024">
+                    <button class="btn btn-outline-danger">
+                        <i class="icon-down-circled2"></i> Download My CV
+                    </button>
+                </a>
+                
             </div>
             <div class="col-lg-4 about-card">
                 <h3 class="font-weight-light">Personal Info</h3>
@@ -126,7 +132,7 @@
                     <div class="card">
                        <div class="card-header">
                             <div class="mt-2">
-                                <h4>Expertise</h4>
+                                <h4>Experience</h4>
                                 <span class="line"></span>  
                             </div>
                         </div>
@@ -297,8 +303,8 @@
                             <i class="ti-vector text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">placeholder</h5>
-                            <P class="subtitle">placeholder</P>
+                            <h5 class="mb-3 card-title text-dark">Deployment and Maintaince of Apache Kafka on NYU HSRN Kubernetes</h5>
+                            <P class="subtitle">Deployed Apache Kafka on NYU HSRN Kubernetes Clusters, and made it available for NYU researcher. The Kafka deployment supports ACL, SASL, and it was linked to a domain name that HSRN owns.</P>
                         </div>
                     </div>
                 </div>
@@ -308,8 +314,8 @@
                             <i class="ti-write text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">placeholder</h5>
-                            <P class="subtitle">placeholder</P>
+                            <h5 class="mb-3 card-title text-dark">Real Time Application Documentation</h5>
+                            <P class="subtitle">Wrote the general and technical documentation for Real Time Application, acting as the guidance for researchers.</P>
                         </div>
                     </div>
                 </div>
@@ -319,8 +325,8 @@
                             <i class="ti-package text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">placeholder</h5>
-                            <P class="subtitle">placeholder</P>
+                            <h5 class="mb-3 card-title text-dark">NYU Tandon School of Engineering Security in Google Cloud Badge</h5>
+                            <P class="subtitle">Earned GCP Security Badge through NYU Cyber Fellows' Cybersecurity Skills Badges</P>
                         </div>
                     </div>
                 </div>
@@ -330,8 +336,8 @@
                             <i class="ti-map-alt text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">placeholder</h5>
-                            <P class="subtitle">placeholder</P>
+                            <h5 class="mb-3 card-title text-dark">NY Transit Project</h5>
+                            <P class="subtitle">By using MTA Api and database techniques, a website that contains real time MTA updates and train instructions is developed</P>
                         </div>
                     </div>
                 </div>
@@ -341,8 +347,8 @@
                             <i class="ti-bar-chart text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">placeholder</h5>
-                            <P class="subtitle">placeholder</P>
+                            <h5 class="mb-3 card-title text-dark">Web Deployment</h5>
+                            <P class="subtitle">Through this web page </P>
                         </div>
                     </div>
                 </div>
@@ -352,8 +358,11 @@
                             <i class="ti-support text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">placeholder</h5>
-                            <P class="subtitle">placeholder</P>
+                            <h5 class="mb-3 card-title text-dark">Machine Learning and Artificial Intelligence Project hosted by UIUC  (University of Illinois, Urbana, Champaine)
+                            </h5>
+                            <P class="subtitle">
+                                Participated in online course work on machine learning and artificial intelligence theories.  The course concluded with a project that resulted in the publication of a research paper titled “Application of Machine Learning and Real-time Feedback System to Predict Arriving Time”, which was ultimately published by the Journal of Physics Conference Series
+                                </P>
                         </div>
                     </div>
                 </div>
@@ -373,26 +382,22 @@
     </section>
 
     <div class="section contact" id="contact">
-        <div id="map" class="map"></div>
+      
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="contact-form-card">
                         <h4 class="contact-title">Send a message</h4>
-                        <form action="">
+                      
+                        <form action="https://formspree.io/f/xdoqpajb" method="POST">
+                            <input class="form-control" type="text" placeholder="Name *" name="name" required>
+                            <input class="form-control" type="email" placeholder="Email *" name="_replyto" required>
+                            <textarea class="form-control" placeholder="Message *" name="message" rows="7" required></textarea>
                             <div class="form-group">
-                                <input  class="form-control" type="text" placeholder="Name *" required>
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" type="email" placeholder="Email *" required>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" id=" placeholder="Message *" rows="7" required></textarea>
-                            </div>
-                            <div class="form-group ">
-                                <button type="submit" class="form-control btn btn-primary" >Send Message</button>
+                                <button type="submit" class="form-control btn btn-primary">Send Message</button>
                             </div>
                         </form>
+                            
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -451,9 +456,7 @@
     <!-- Isotope  -->
     <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
     
-    <!-- Google mpas -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
-
+ 
     <!-- JohnDoe js -->
     <script src="assets/js/johndoe.js"></script>
 
